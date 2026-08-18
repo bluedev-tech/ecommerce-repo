@@ -1,0 +1,38 @@
+.authBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-weight: bold;
+}
+input {
+  background-color: inherit;
+  margin-left: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  height: 30px;
+  border-radius: 10px;
+}
+.em {
+  margin-bottom: 20px;
+}
+.submitBtn {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
